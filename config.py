@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 # This module contains the configuration settings for the Flask web application.
 # It includes settings for the secret key, MongoDB URI, and allowed file extensions.
 
->>>>>>> bd45cca (initial commit)
 from pymongo import MongoClient
 
 class Config:

@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 # This module defines the routes for the Flask web application.
 # It includes the main route for rendering the index page and a route for handling file uploads.
 # The routes are configured and attached to the Flask app instance.
 
->>>>>>> bd45cca (initial commit)
 from flask import render_template, request, redirect, url_for, flash, send_from_directory
 import os
 from werkzeug.utils import secure_filename

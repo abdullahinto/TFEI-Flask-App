@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 # This module handles interactions with MongoDB, including saving images to GridFS.
 # It establishes a connection to the MongoDB database and provides utility functions
 # for storing and retrieving files.
 
->>>>>>> bd45cca (initial commit)
 from pymongo import MongoClient
 from gridfs import GridFS
 from config import Config

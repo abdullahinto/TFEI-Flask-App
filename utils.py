@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 # This module provides utility functions for the Flask web application.
 # It includes functions for file validation, image preprocessing, and text extraction using OCR.
 
->>>>>>> bd45cca (initial commit)
 import os
 from PIL import Image, ImageFilter
 import pytesseract
@@ -32,7 +29,4 @@ def extract_text_from_image(image_path):
         return f"Error extracting text using Tesseract: {te}"
     except Exception as e:
         return f"Error processing image: {e}"
-<<<<<<< HEAD
 
-=======
->>>>>>> bd45cca (initial commit)
