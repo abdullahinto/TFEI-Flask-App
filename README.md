@@ -12,7 +12,7 @@ This Flask web application extracts text from uploaded images.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/TEFI-Flask-App.git
+    git clone https://github.com/abdullahinto/TEFI-Flask-App.git
     ```
 2. Navigate to the project directory:
     ```bash
